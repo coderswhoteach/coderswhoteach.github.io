@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Coders Who Teach - Contact</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:image" content="img/facebook.png" />
+
+  <link href="https://fonts.googleapis.com/css?family=Lato|Nova+Mono" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html" onclick="navToggle()">Home</a></li>
+        <li><a href="meetups.html" onclick="navToggle()">Meetups</a></li>
+        <li><a href="resources.html" onclick="navToggle()">Resources</a></li>
+        <li><a href="contact.html" onclick="navToggle()">Contact</a></li>
+        <li class="icon">
+          <a href="javascript:void(0);" onclick="navToggle()">Menu &#9776;</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="logo-outer">
+      <h1 class="logo">Coders<br>who<br>Teach</h1>
+    </div>
+  </header>
+  <main>
+    <h2>Get in touch</h2>
+    <p>Coders Who Teach is organised by <a href="http://jennybrennan.com">Jenny Brennan</a> (@jennyhbren).</p>
+    <p><b>Twitter:</b> @coderswhoteach</p>
+    <p><b>Email:</b> hello@jennybrennan.com</p>
+    <p><b>Facebook:</b> <a href="https://www.facebook.com/groups/271358503263649/" title="Coders Who Teach facebook group">Coders Who Teach Facebook group</a></p>
+  </main>
+
+  <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function navToggle() {
+        document.getElementsByTagName("nav")[0].classList.toggle("responsive");
+    }
+  </script>
+
+</body>
+</html>

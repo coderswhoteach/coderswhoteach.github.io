@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Coders Who Teach - Resources</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:image" content="img/facebook.png" />
+
+  <link href="https://fonts.googleapis.com/css?family=Lato|Nova+Mono" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html" onclick="navToggle()">Home</a></li>
+        <li><a href="meetups.html" onclick="navToggle()">Meetups</a></li>
+        <li><a href="resources.html" onclick="navToggle()">Resources</a></li>
+        <li><a href="contact.html" onclick="navToggle()">Contact</a></li>
+        <li class="icon">
+          <a href="javascript:void(0);" onclick="navToggle()">Menu &#9776;</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="logo-outer">
+      <h1 class="logo">Coders<br>who<br>Teach</h1>
+    </div>
+  </header>
+  <main>
+    <h2>Meetup &amp; resources for those who teach coding</h2>
+    <p>Some text here you see</p>
+    <p>Some other text</p>
+  </main>
+
+  <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function navToggle() {
+        document.getElementsByTagName("nav")[0].classList.toggle("responsive");
+    }
+  </script>
+
+</body>
+</html>
