@@ -8,8 +8,7 @@ body {
   color: #333333;
 }
 h1, h2, h3, h4 {
-  font-family: 'Nova Mono', monospace;
-  text-transform: uppercase;
+  font-family: 'Lexend Deca', monospace;
 }
 h2, h3, h4 {
   padding: 15px 10px 5px 10px;
@@ -43,7 +42,7 @@ main {
   background: #fff;
 }
 nav {
-  font-family: 'Nova Mono', monospace;
+  font-family: 'Lexend Deca', monospace;
   margin: 0 auto;
   color: #fff;
   overflow: hidden;
