@@ -57,7 +57,7 @@ At Meetup #0, we did a learning and sharing exercise to find out a bit more abou
 
 ## What we want to share
 
--   Software carpentry 
+-   Software carpentry
 -   What went well/even better if
 -   How to facilitate group discussions to happen without you
 -   Enthusiasm and approachability
