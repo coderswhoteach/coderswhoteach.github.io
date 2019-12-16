@@ -10,12 +10,16 @@ body {
 h1, h2, h3, h4 {
   font-family: 'Lexend Deca', monospace;
 }
-h2, h3, h4 {
+h2, h3 {
   padding: 15px 10px 5px 10px;
+}
+h4 { 
+  padding: 0px 10px 0px 10px;
+  margin: 0px;
 }
 p {
   line-height: 1.8em;
-  padding: 0px 10px 10px 10px;
+  padding: 0px 10px 0px 10px;
 }
 a, a:visited {
   color: #9fc05c;
@@ -84,6 +88,9 @@ input {
   box-shadow: none;
   box-sizing: border-box; 
   margin: 0px 10px 20px 0px;
+}
+.twitter-tweet {
+  margin: auto;
 }
 
 @media screen and (max-width:820px) {
