@@ -43,6 +43,15 @@ a, a:visited {
   background: #616060;
   color: #fff;
 }
+.alert {
+  border: solid #9fc05c 2px;
+}
+.alert h3 {
+  margin-top: 0;
+  background-color: #9fc05c;
+  font-size: 1.1em;
+  padding: 15px;
+}
 main {
   max-width:650px;
   margin: auto;
