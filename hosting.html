@@ -1,96 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <meta charset="utf-8" />
 
-  <meta charset="utf-8">
+    <title>Coders Who Teach</title>
 
-  <title>Coders Who Teach</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      property="og:image"
+      content="https://coderswhoteach.com/img/facebook.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@coderswhoteach" />
+    <meta name="twitter:creator" content="@coderswhoteach" />
+    <meta name="twitter:title" content="Hosting a Coders Who Teach meetup" />
+    <meta
+      name="twitter:description"
+      content="Who we are, what we do, and why you might like to host us."
+    />
+    <meta
+      name="twitter:image"
+      content="https://coderswhoteach.com/img/facebook.png"
+    />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:image" content="https://coderswhoteach.com/img/facebook.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@coderswhoteach">
-  <meta name="twitter:creator" content="@coderswhoteach">
-  <meta name="twitter:title" content="Hosting a Coders Who Teach meetup">
-  <meta name="twitter:description" content="Who we are, what we do, and why you might like to host us.">
-  <meta name="twitter:image" content="https://coderswhoteach.com/img/facebook.png">
+    <link
+      href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
 
-  <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
- 
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
-  <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html" onclick="navToggle()">Home</a></li>
+          <li><a href="meetups.html" onclick="navToggle()">Meetups</a></li>
+          <li><a href="resources.html" onclick="navToggle()">Resources</a></li>
+          <li><a href="contact.html" onclick="navToggle()">Contact</a></li>
+          <li>
+            <a href="code-of-conduct.html" onclick="navToggle()"
+              >Code of Conduct</a
+            >
+          </li>
+          <li class="icon">
+            <a href="javascript:void(0);" onclick="navToggle()">Menu &#9776;</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="logo-outer">
+        <h1 class="logo">Coders<br />who<br />Teach</h1>
+      </div>
+    </header>
+    <main>
+      <h2>Hosting Coders Who Teach</h2>
 
-</head>
-<body>
+      <h3>What is Coders Who Teach?</h3>
+      <p>
+        Coders Who Teach is a volunteer-run meetup for people who teach
+        programming to share experience and best practice. Most of our community
+        teach in non-traditional education contexts such as meetups, workshops,
+        bootcamps or coding courses (for adults, or children), many of them as
+        volunteers. Our community is focussed on how we can grow and improve as
+        teachers, so we can provide the best for our students and mentees.
+      </p>
 
-  <header>
-    <nav>
+      <h3>Why might you like to host us?</h3>
+      <p>
+        If our purpose sounds exciting to you, you might like to host us! We
+        hope that by growing our community, we’ll not only be supporting a great
+        group of coders who teach, but indirectly improving the educational
+        experience of their students.
+      </p>
+      <p>
+        In addition, many tech companies host meetups as a way to upskill their
+        engineers, engage the wider tech community and meet potential future
+        hires. Our community of coders who teach are developers with a wide
+        range of technical experience and the ability to share it with others -
+        to mentor, nurture and develop future talent.
+      </p>
+
+      <h3>What happens at a Coders Who Teach meetup?</h3>
+      <p>Sample agenda:</p>
       <ul>
-        <li><a href="index.html" onclick="navToggle()">Home</a></li>
-        <li><a href="meetups.html" onclick="navToggle()">Meetups</a></li>
-        <li><a href="resources.html" onclick="navToggle()">Resources</a></li>
-        <li><a href="contact.html" onclick="navToggle()">Contact</a></li>
-        <li class="icon">
-          <a href="javascript:void(0);" onclick="navToggle()">Menu &#9776;</a>
+        <li>6.30pm - doors open</li>
+        <li>7pm - lightning talks</li>
+        <li>7.30pm - breakout discussion sessions</li>
+        <li>8.15pm - soft drinks and snacks</li>
+        <li>9pm - politely kick everyone out of your office</li>
+      </ul>
+      <p>
+        Previous speakers include Abby Sassell on 'Creating a Coach', Tom Grand
+        on 'Cognitive Load Theory, In Practice' and Anisah Osman Britton,
+        founder of 23 Code Street, on 'Teacher vs Role Model' (<a
+          href="https://www.eventbrite.co.uk/e/coders-who-teach-meetup-0-tickets-70422887753#"
+          >see Eventbrite for a previous meetup at Twitter UK</a
+        >).
+      </p>
+
+      <h3>What does hosting involve?</h3>
+      <p>
+        We know every office is different, so we’re quite flexible! These are
+        the key things to think about:
+      </p>
+      <h4>A space to host the meetup</h4>
+      <ul>
+        <li>
+          <strong>Capacity</strong> - our most recent meetup had around 30
+          attendees (from 55 signups); we’re hoping to aim for a few more!
+        </li>
+        <li>
+          <strong>Speaking setup</strong> - we usually have a few speakers who
+          show slides
+        </li>
+        <li>
+          <strong>Layout</strong> - we like room layouts that facilitate
+          discussion (e.g. around tables), but we’ll work with what you have;
+          it’s great if you don’t mind us moving the chairs a little!
         </li>
       </ul>
-    </nav>
-    <div class="logo-outer">
-      <h1 class="logo">Coders<br>who<br>Teach</h1>
-    </div>
-  </header>
-  <main>
-    <h2>Hosting Coders Who Teach</h2>
-    
-    <h3>What is Coders Who Teach?</h3>
-    <p>Coders Who Teach is a volunteer-run meetup for people who teach programming to share experience and best practice. Most of our community teach in non-traditional education contexts such as meetups, workshops, bootcamps or coding courses (for adults, or children), many of them as volunteers. Our community is focussed on how we can grow and improve as teachers, so we can provide the best for our students and mentees.</p>
-    
-    <h3>Why might you like to host us?</h3>
-    <p>If our purpose sounds exciting to you, you might like to host us! We hope that by growing our community, we’ll not only be supporting a great group of coders who teach, but indirectly improving the educational experience of their students. </p>
-    <p>In addition, many tech companies host meetups as a way to upskill their engineers, engage the wider tech community and meet potential future hires. Our community of coders who teach are developers with a wide range of technical experience and the ability to share it with others - to mentor, nurture and develop future talent. </p>
+      <h4>Food & drinks</h4>
+      <p>
+        This is up to you, but usually hosting companies like to put on food and
+        drinks. We prefer only non-alcoholic drinks to create an inclusive
+        environment. All-vegetarian food, with vegan and gluten free options,
+        has worked well in the past to cater to most needs.
+      </p>
+      <h4>Someone from your team on hand for the event</h4>
+      <p>
+        And not just because we’ll need to learn where everything is - often
+        hosts enjoy getting involved on the day!
+      </p>
+      <h4>We'll take care of the rest</h4>
+      <p>
+        We’ll take care of organising speakers, advertising the meetup and event
+        registration with Eventbrite (we’ll send you the guest list on the day
+        or 24 hours in advance, as you prefer). We understand you might have
+        your own security practices etc. - just let us know!
+      </p>
 
-    <h3>What happens at a Coders Who Teach meetup?</h3>
-    <p>Sample agenda:</p>
-    <ul>
-      <li>6.30pm - doors open</li>
-      <li>7pm - lightning talks</li>
-      <li>7.30pm - breakout discussion sessions</li>
-      <li>8.15pm - soft drinks and snacks</li>
-      <li>9pm - politely kick everyone out of your office</li>
-    </ul>
-    <p>Previous speakers include Abby Sassell on 'Creating a Coach', Tom Grand on 'Cognitive Load Theory, In Practice' and Anisah Osman Britton, founder of 23 Code Street, on 'Teacher vs Role Model' (<a href="https://www.eventbrite.co.uk/e/coders-who-teach-meetup-0-tickets-70422887753#">see Eventbrite for a previous meetup at Twitter UK</a>).</p>
+      <h3>Check out some Tweets from our previous meetups 👇</h3>
 
-    <h3>What does hosting involve?</h3>
-    <p>We know every office is different, so we’re quite flexible! These are the key things to think about:</p>
-    <h4>A space to host the meetup</h4>
-    <ul>
-      <li><strong>Capacity</strong> - our most recent meetup had around 30 attendees (from 55 signups); we’re hoping to aim for a few more!</li>
-      <li><strong>Speaking setup</strong> - we usually have a few speakers who show slides</li>
-      <li><strong>Layout</strong> - we like room layouts that facilitate discussion (e.g. around tables), but we’ll work with what you have; it’s great if you don’t mind us moving the chairs a little!</li>
-    </ul>
-    <h4>Food & drinks</h4>
-    <p>This is up to you, but usually hosting companies like to put on food and drinks. We prefer only non-alcoholic drinks to create an inclusive environment. All-vegetarian food, with vegan and gluten free options, has worked well in the past to cater to most needs.</p>
-    <h4>Someone from your team on hand for the event</h4>
-    <p>And not just because we’ll need to learn where everything is - often hosts enjoy getting involved on the day!</p>
-    <h4>We'll take care of the rest</h4>
-    <p>We’ll take care of organising speakers, advertising the meetup and event registration with Eventbrite (we’ll send you the guest list on the day or 24 hours in advance, as you prefer). We understand you might have your own security practices etc. - just let us know!</p>
+      <!-- Tweets of previous meetups -->
+      <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">
+          First up it&#39;s
+          <a href="https://twitter.com/sassela?ref_src=twsrc%5Etfw">@sassela</a>
+          on &#39;Coaching a Coach&#39;:<br /><br />Lesson 1️⃣ - start by working
+          out why someone wants to learn, to help make sure you&#39;re coaching
+          the right thing, in a way that reflects their motivation.
+          <a href="https://t.co/iAYAqzVu7k">pic.twitter.com/iAYAqzVu7k</a>
+        </p>
+        &mdash; Coders Who Teach (@coderswhoteach)
+        <a
+          href="https://twitter.com/coderswhoteach/status/1174024925725777920?ref_src=twsrc%5Etfw"
+          >September 17, 2019</a
+        >
+      </blockquote>
+      <script
+        async
+        src="https://platform.twitter.com/widgets.js"
+        charset="utf-8"
+      ></script>
 
-    <h3>Check out some Tweets from our previous meetups 👇</h3>
+      <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">
+          We&#39;ll be collating post-its, ideas, feedback and sharing it -
+          thank you for contributing so many great coding teaching ideas, goals
+          and aspirations!
+          <a href="https://t.co/G9yBUeqiFn">pic.twitter.com/G9yBUeqiFn</a>
+        </p>
+        &mdash; Coders Who Teach (@coderswhoteach)
+        <a
+          href="https://twitter.com/coderswhoteach/status/1174087512194715648?ref_src=twsrc%5Etfw"
+          >September 17, 2019</a
+        >
+      </blockquote>
+      <script
+        async
+        src="https://platform.twitter.com/widgets.js"
+        charset="utf-8"
+      ></script>
+    </main>
 
-    <!-- Tweets of previous meetups -->
-    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">First up it&#39;s <a href="https://twitter.com/sassela?ref_src=twsrc%5Etfw">@sassela</a> on &#39;Coaching a Coach&#39;:<br><br>Lesson 1️⃣ - start by working out why someone wants to learn, to help make sure you&#39;re coaching the right thing, in a way that reflects their motivation. <a href="https://t.co/iAYAqzVu7k">pic.twitter.com/iAYAqzVu7k</a></p>&mdash; Coders Who Teach (@coderswhoteach) <a href="https://twitter.com/coderswhoteach/status/1174024925725777920?ref_src=twsrc%5Etfw">September 17, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We&#39;ll be collating post-its, ideas, feedback and sharing it - thank you for contributing so many great coding teaching ideas, goals and aspirations! <a href="https://t.co/G9yBUeqiFn">pic.twitter.com/G9yBUeqiFn</a></p>&mdash; Coders Who Teach (@coderswhoteach) <a href="https://twitter.com/coderswhoteach/status/1174087512194715648?ref_src=twsrc%5Etfw">September 17, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-  </main>
-
-  <script>
-    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-    function navToggle() {
+    <script>
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function navToggle() {
         document.getElementsByTagName("nav")[0].classList.toggle("responsive");
-    }
-  </script>
-
-</body>
+      }
+    </script>
+  </body>
 </html>

@@ -1,63 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <meta charset="utf-8" />
 
-  <meta charset="utf-8">
+    <title>Coders Who Teach - Contact</title>
 
-  <title>Coders Who Teach - Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      property="og:image"
+      content="https://coderswhoteach.com/img/facebook.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@coderswhoteach" />
+    <meta name="twitter:creator" content="@coderswhoteach" />
+    <meta name="twitter:title" content="Coders Who Teach - Contact Us" />
+    <meta
+      name="twitter:description"
+      content="Get in touch with the Coders Who Teach meetup."
+    />
+    <meta
+      name="twitter:image"
+      content="https://coderswhoteach.com/img/facebook.png"
+    />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:image" content="https://coderswhoteach.com/img/facebook.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@coderswhoteach">
-  <meta name="twitter:creator" content="@coderswhoteach">
-  <meta name="twitter:title" content="Coders Who Teach - Contact Us">
-  <meta name="twitter:description" content="Get in touch with the Coders Who Teach meetup.">
-  <meta name="twitter:image" content="https://coderswhoteach.com/img/facebook.png">
+    <link
+      href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
 
-  <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
 
-  <link rel="stylesheet" href="style.css">
-
-  <link rel="icon" type="image/png" href="images/favicon.png">
-
-</head>
-<body>
-
-  <header>
-    <nav>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html" onclick="navToggle()">Home</a></li>
+          <li><a href="meetups.html" onclick="navToggle()">Meetups</a></li>
+          <li><a href="resources.html" onclick="navToggle()">Resources</a></li>
+          <li><a href="contact.html" onclick="navToggle()">Contact</a></li>
+          <li>
+            <a href="code-of-conduct.html" onclick="navToggle()"
+              >Code of Conduct</a
+            >
+          </li>
+          <li class="icon">
+            <a href="javascript:void(0);" onclick="navToggle()">Menu &#9776;</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="logo-outer">
+        <h1 class="logo">Coders<br />who<br />Teach</h1>
+      </div>
+    </header>
+    <main>
+      <h2>Get in touch</h2>
       <ul>
-        <li><a href="index.html" onclick="navToggle()">Home</a></li>
-        <li><a href="meetups.html" onclick="navToggle()">Meetups</a></li>
-        <li><a href="resources.html" onclick="navToggle()">Resources</a></li>
-        <li><a href="contact.html" onclick="navToggle()">Contact</a></li>
-        <li class="icon">
-          <a href="javascript:void(0);" onclick="navToggle()">Menu &#9776;</a>
+        <li>
+          <a href="https://twitter.com/coderswhoteach">@coderswhoteach</a> on
+          Twitter
         </li>
+        <li>
+          <a
+            href="https://www.facebook.com/groups/271358503263649/"
+            title="Coders Who Teach facebook group"
+            >Coders Who Teach Facebook group</a
+          >
+        </li>
+        <li><a href="https://github.com/coderswhoteach">GitHub</a></li>
       </ul>
-    </nav>
-    <div class="logo-outer">
-      <h1 class="logo">Coders<br>who<br>Teach</h1>
-    </div>
-  </header>
-  <main>
-    <h2>Get in touch</h2>
-    <ul>
-      <li><a href="https://twitter.com/coderswhoteach">@coderswhoteach</a> on Twitter</li>
-      <li><a href="https://www.facebook.com/groups/271358503263649/" title="Coders Who Teach facebook group">Coders Who Teach Facebook group</a></li>
-      <li><a href="https://github.com/coderswhoteach">GitHub</a></li>
-    </ul>
-    <p>To get notified of all future meetups, join our newsletter:</p>
-    <form style="text-align:center;" action="https://tinyletter.com/CodersWhoTeach" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/CodersWhoTeach', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><input type="text" style="width:200px" name="email" id="tlemail" placeholder="Pop your email in here!"/><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /></form> 
-    <p>Coders Who Teach is organised by <a href="http://jennybrennan.com">Jenny Brennan</a> (<a href="https://twitter.com/jennyhbren">@jennyhbren</a>).</p>
-  </main>
+      <p>To get notified of all future meetups, join our newsletter:</p>
+      <form
+        style="text-align:center;"
+        action="https://tinyletter.com/CodersWhoTeach"
+        method="post"
+        target="popupwindow"
+        onsubmit="window.open('https://tinyletter.com/CodersWhoTeach', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
+      >
+        <input
+          type="text"
+          style="width:200px"
+          name="email"
+          id="tlemail"
+          placeholder="Pop your email in here!"
+        /><input type="hidden" value="1" name="embed" /><input
+          type="submit"
+          value="Subscribe"
+        />
+      </form>
+      <p>
+        Coders Who Teach is organised by
+        <a href="http://jennybrennan.com">Jenny Brennan</a> (<a
+          href="https://twitter.com/jennyhbren"
+          >@jennyhbren</a
+        >).
+      </p>
+    </main>
 
-  <script>
-    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-    function navToggle() {
+    <script>
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function navToggle() {
         document.getElementsByTagName("nav")[0].classList.toggle("responsive");
-    }
-  </script>
-
-</body>
+      }
+    </script>
+  </body>
 </html>
