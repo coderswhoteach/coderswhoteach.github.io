@@ -1,80 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <meta charset="utf-8" />
 
-  <meta charset="utf-8">
+    <title>Coders Who Teach - Resources</title>
 
-  <title>Coders Who Teach - Resources</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      property="og:image"
+      content="https://coderswhoteach.com/img/facebook.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@coderswhoteach" />
+    <meta name="twitter:creator" content="@coderswhoteach" />
+    <meta name="twitter:title" content="Coders Who Teach Resources" />
+    <meta
+      name="twitter:description"
+      content="Resources for people who teach coding, whether in or out of the classroom."
+    />
+    <meta
+      name="twitter:image"
+      content="https://coderswhoteach.com/img/facebook.png"
+    />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:image" content="https://coderswhoteach.com/img/facebook.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@coderswhoteach">
-  <meta name="twitter:creator" content="@coderswhoteach">
-  <meta name="twitter:title" content="Coders Who Teach Resources">
-  <meta name="twitter:description" content="Resources for people who teach coding, whether in or out of the classroom.">
-  <meta name="twitter:image" content="https://coderswhoteach.com/img/facebook.png">
+    <link
+      href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
 
-  <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
 
-  <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/ico" href="img/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html" onclick="navToggle()">Home</a></li>
+          <li><a href="meetups.html" onclick="navToggle()">Meetups</a></li>
+          <li><a href="resources.html" onclick="navToggle()">Resources</a></li>
+          <li><a href="contact.html" onclick="navToggle()">Contact</a></li>
+          <li>
+            <a href="code-of-conduct.html" onclick="navToggle()"
+              >Code of Conduct</a
+            >
+          </li>
+          <li class="icon">
+            <a href="javascript:void(0);" onclick="navToggle()">Menu &#9776;</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="logo-outer">
+        <h1 class="logo">Coders<br />who<br />Teach</h1>
+      </div>
+    </header>
+    <main>
+      <h2>Resources for coders who teach</h2>
 
-  <link rel="icon" type="image/png" href="images/favicon.png">
-
-</head>
-<body>
-
-  <header>
-    <nav>
+      <h3>On teaching</h3>
       <ul>
-        <li><a href="index.html" onclick="navToggle()">Home</a></li>
-        <li><a href="meetups.html" onclick="navToggle()">Meetups</a></li>
-        <li><a href="resources.html" onclick="navToggle()">Resources</a></li>
-        <li><a href="contact.html" onclick="navToggle()">Contact</a></li>
-        <li class="icon">
-          <a href="javascript:void(0);" onclick="navToggle()">Menu &#9776;</a>
+        <li>
+          <a href="https://coach.djangogirls.org/tips/"
+            >Coaching Guidelines, Tips and Tricks</a
+          >
+          - from DjangoGirls, including advice for 'meta coaches'.
+        </li>
+        <li>
+          <a href="/resources/tips-to-minimise-cognitive-load.pdf"
+            >Tips to Minimise Cognitive Load (pdf)</a
+          >
+          - from <a href="https://twitter.com/atomgrand">Tom Grand</a> who spoke
+          at Meetup #0 (you can also read his
+          <a href="/resources/cognitive-load-theory-talk-slides.pdf"
+            >slides on cognitive load</a
+          >).
         </li>
       </ul>
-    </nav>
-    <div class="logo-outer">
-      <h1 class="logo">Coders<br>who<br>Teach</h1>
-    </div>
-  </header>
-  <main>
-    <h2>Resources for coders who teach</h2>
 
-    <h3>On teaching</h3>
-    <ul>
-      <li><a href="https://coach.djangogirls.org/tips/">Coaching Guidelines, Tips and Tricks</a> - from DjangoGirls, including advice for 'meta coaches'.</li>
-      <li><a href="/resources/tips-to-minimise-cognitive-load.pdf">Tips to Minimise Cognitive Load (pdf)</a> - from <a href="https://twitter.com/atomgrand">Tom Grand</a> who spoke at Meetup #0 (you can also read his <a href="/resources/cognitive-load-theory-talk-slides.pdf">slides on cognitive load</a>).</li>
-    </ul>
+      <h3>For use in classes/workshops</h3>
+      <ul>
+        <li>Coming soon - suggestions welcome!</li>
+      </ul>
 
-    <h3>For use in classes/workshops</h3>
-    <ul>
-      <li>Coming soon - suggestions welcome!</li>
-    </ul>
+      <h3>To share with students</h3>
+      <ul>
+        <li>
+          <a href="http://coder-newbie.surge.sh/">Coder Newbie Resources</a> -
+          an open source list of resources, tools and meetups for learning to
+          code.
+        </li>
+        <li>
+          <a href="https://londontechmeetups.com">London Tech Meetups</a> - an
+          open source list of tech meetups in London, including
+          beginner-friendly meetups.
+        </li>
+      </ul>
 
-    <h3>To share with students</h3>
-    <ul>
-      <li><a href="http://coder-newbie.surge.sh/">Coder Newbie Resources</a> - an open source list of resources, tools and meetups for learning to code.</li>
-      <li><a href="https://londontechmeetups.com">London Tech Meetups</a> - an open source list of tech meetups in London, including beginner-friendly meetups.</li>
-    </ul>
+      <h3>Our community</h3>
+      <ul>
+        <li>
+          <a
+            href="https://github.com/coderswhoteach/coderswhoteach.github.io/blob/master/resources/meetup-0-learn-and-share.md"
+            >Learn & Share from Meetup #0</a
+          >
+          - from post it notes of what our community would like to learn or
+          share in future.
+        </li>
+      </ul>
 
-    <h3>Our community</h3>
-    <ul>
-      <li><a href="https://github.com/coderswhoteach/coderswhoteach.github.io/blob/master/resources/meetup-0-learn-and-share.md">Learn & Share from Meetup #0</a> - from post it notes of what our community would like to learn or share in future.</li>
-    </ul>
+      <h2>Add a resource?</h2>
+      <p>
+        This list is on
+        <a
+          href="https://github.com/coderswhoteach/coderswhoteach.github.io/blob/master/resources.html"
+          >GitHub</a
+        >
+        - pull requests with resources welcome (<a
+          href="https://github.com/coderswhoteach/coderswhoteach.github.io"
+          >steps for making a pull request</a
+        >)!
+      </p>
+    </main>
 
-    <h2>Add a resource?</h2>
-    <p>This list is on <a href="https://github.com/coderswhoteach/coderswhoteach.github.io/blob/master/resources.html">GitHub</a> - pull requests with resources welcome (<a href="https://github.com/coderswhoteach/coderswhoteach.github.io">steps for making a pull request</a>)!</p> 
-  </main>
-
-  <script>
-    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-    function navToggle() {
+    <script>
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function navToggle() {
         document.getElementsByTagName("nav")[0].classList.toggle("responsive");
-    }
-  </script>
-
-</body>
+      }
+    </script>
+  </body>
 </html>
