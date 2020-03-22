@@ -20,6 +20,10 @@ h4 {
 p {
   line-height: 1.8em;
   padding: 0px 10px 0px 10px;
+  text-align: left;
+}
+.center {
+  text-align: center;
 }
 li {
   line-height: 1.8em;
@@ -45,12 +49,28 @@ a, a:visited {
 }
 .alert {
   border: solid #9fc05c 2px;
+  border-radius: 2px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 .alert h3 {
   margin-top: 0;
   background-color: #9fc05c;
   font-size: 1.1em;
   padding: 15px;
+}
+a.button {
+  display: inline-block;
+  padding: 20px;
+  background-color: #ea860d;
+  color: #fff;
+  margin-bottom: 30px;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+a.button:hover {
+  background-color: #e7d437;
 }
 main {
   max-width:650px;
