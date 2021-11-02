@@ -53,7 +53,7 @@ a, a:visited {
   text-align: center;
   margin-bottom: 30px;
 }
-.alert h3 {
+.alert h2, h3 {
   margin-top: 0;
   background-color: #9fc05c;
   font-size: 1.1em;
